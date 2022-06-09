@@ -115,7 +115,6 @@ rule filter_echtvar:
         for f in $(cat {input}); do
             echo $f
             fname=$(basename $f)
-            fname=${{fname%.vcf.gz.bcf.gz}}.bcf.gz
             mkdir -p {params.outdir}
             destname={params.outdir}/$fname
             if [[ ! -e $destname ]]; then
