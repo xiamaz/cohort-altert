@@ -1,0 +1,13 @@
+[
+        {"field": "AC", "alias": "gnomad_ac"},
+        {"field": "AN", "alias": "gnomad_an"},
+        {"field": "nhomalt", "alias": "gnomad_nhomalt"},
+        {"field": "AF", "alias": "gnomad_af", multiplier: 2000000},
+
+        {"field": "AC_popmax", "alias": "gnomad_popmax_ac"},
+        {"field": "AN_popmax", "alias": "gnomad_popmax_an"},
+        {"field": "nhomalt_popmax", "alias": "gnomad_popmax_nhomalt"},
+        {"field": "AF_popmax", "alias": "gnomad_popmax_af", multiplier: 2000000},
+
+        {"field": "FILTER", "alias": "gnomad_filter", "missing_string": "PASS"},
+]
